@@ -4,8 +4,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+bandit = "*"
 
 [packages]
+background = {editable = true,git = "https://github.com/ken/background.git"}
 
 [requires]
 python_version = "3.6"
